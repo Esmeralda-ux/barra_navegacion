@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+
+            height: 200px;
+            background-color: aqua;
+            font-size: 30px;
+
+ 
+        }
+
+        main {
+       
+            height: 200px;
+            background-color: blueviolet;
+            font-size: 30px;
+            width: 300px;
+            /*align-self: flex-start*/
+            flex-grow: 3;
+            
+
+        }
+        nav{
+            background-color: cadetblue;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        aside {
+            height: 200px;
+            background-color: brown;
+            font-size: 30px;
+            width: 300px;
+            flex-grow: 1;
+ 
+        }
+
+        footer {
+            height: 200px;
+            background-color: cadetblue;
+            font-size: 30px
+                /*align-self: flex-start;*/
+                /*flex-shrink: 0;*/
+        }
+        div{
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>encabezado de la pagina
+        </h1>
+        <nav>
+            <a href="">inicio</a>
+            <a href="">nosotros</a>
+            <a href="">sucursales</a>
+            <a href="">registros</a>
+        </nav>
+    </header>
+    <div>
+        <main>contenido principal</main>
+        <aside>contenido secundario</aside>
+    </div>
+    <footer>pie de pagna</footer>
+
+</body>
+
+</html>
